@@ -23,7 +23,7 @@ public class GradeConverterTest {
     @Test
     public void testConvert2() throws Exception {
         String expected = "A";
-        String actual = converter.convert(80);
+        String actual = converter.convert(83);
         assertEquals(expected,actual);
     }
     @Test
